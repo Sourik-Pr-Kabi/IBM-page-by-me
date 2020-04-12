@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION PAGE</title>
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <img src="ibm.jpg" height="85" width="95"> &nbsp;&nbsp; 
+            <div align="right">
+                <h1>
+                    Registration
+                    <small class="text-muted">for new users</small>
+                </h1>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="registration.html">REGISTRATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">ABOUT US</a>
+                </li>
+            </ul>
+            <br><br>
+            <form>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">First and last name</span>
+                    </div>
+                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control">
+                </div>
+                <br>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email ID" aria-label="emailid" aria-describedby="basic-addon2" required>
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">username@example.com</span>
+                    </div>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="number" class="form-control" placeholder="Mobile number" aria-label="mobno" aria-describedby="basic-addon2" required>
+                </div>
+                
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Address</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <br>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Country</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option value="1">India</option>
+                        <option value="2">Japan</option>
+                        <option value="3">USA</option>
+                        <option value="4">UK</option>
+                        <option value="5">Germany</option>
+                        <option value="6">China</option>
+                        <option value="7">Russia</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-prepend"><label class="input-group-text" for="inputGroupSelect01">Gender</label>
+                        <div class="input-group-text">
+                        <input type="radio" name="g1" value="M">MALE &nbsp;
+                        <input type="radio" name="g1" value="F">FEMALE
+                        </div>
+                    </div>    
+                </div>
+                <br>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Date of birth</label>
+                    </div>
+                    <input type="date" name="dob" class="form-control" required>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Password</label>
+                    </div>
+                    <input type="password" class="form-control" placeholder="combine small case and capital case alphabets, numbers and special characters" aria-label="" aria-describedby="basic-addon1" required>
+                </div>
+
+                <div class="input-group mb-3">
+                    <label class="input-group-text" for="inputGroupSelect01">Languages known</label>
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <input type="checkbox" name="eng" value="english">English &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="beng" value="bengali">Bengali &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox" name="hin" value="hindi">Hindi &nbsp;
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Upload CV</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile01">
+                      <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div> 
+
+                <div align="center">
+                        <input type="submit" class="btn btn-primary" value="SUBMIT">
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="reset" class="btn btn-dark" value="CLEAR"> 
+                </div>
+            </form>
+        </div>
+        <br><br><br><br><br>
+    </body>
+</html>
